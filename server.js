@@ -12,7 +12,7 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: "https://euphonious-cat-31efe0.netlify.app/",
+    origin: "https://euphonious-cat-31efe0.netlify.app",
     credentials: true,
   })
 );
