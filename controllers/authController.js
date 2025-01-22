@@ -21,7 +21,7 @@ exports.requestPasswordReset = async (req, res) => {
     };
 
     // Create a password reset URL
-    const resetUrl = `http://localhost:5173/reset-password?token=${resetToken}&email=${encodeURIComponent(
+    const resetUrl = `https://euphonious-cat-31efe0.netlify.app/reset-password?token=${resetToken}&email=${encodeURIComponent(
       email
     )}`;
 
